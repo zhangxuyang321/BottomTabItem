@@ -33,10 +33,10 @@ dependencies {
 
 ext {
     bintrayRepo = 'maven'
-    bintrayName = 'BottomTabItem'
+    bintrayName = 'tabitem'
     publishedGroupId = 'com.xyz.tabitem'
     libraryName = 'TabItem'
-    artifact = 'tab_item'
+    artifact = 'tabitem'
     libraryDescription = ''
     libraryVersion = '1.0.0'
 
@@ -45,7 +45,7 @@ ext {
 
     developerId = 'xyz'
     developerName = 'xyz'
-    developerEmail = 'zhangxuyang@gmail.com'
+    developerEmail = 'zhangxuyang321@gmail.com'
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
     allLicenses = ["Apache-2.0"]
