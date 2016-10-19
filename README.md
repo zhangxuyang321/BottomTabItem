@@ -17,6 +17,7 @@
 compile 'com.xyz.tabitem:tabitem:1.0.1'
 
 ### Layout
+``` xml
 <com.xyz.tabitem.BottmTabItem
             android:id="@+id/tab1"
             style="@style/bottomitem"
@@ -30,7 +31,7 @@ compile 'com.xyz.tabitem:tabitem:1.0.1'
             app:titleSelectColor="#FE7105"
             app:titleSize="12dp"
             app:titleTop="5dp" />
-
+```
 ### LICENSE 开源协议
 
     Apache License Version 2.0
