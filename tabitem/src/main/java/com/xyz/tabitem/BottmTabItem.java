@@ -7,6 +7,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.graphics.PaintFlagsDrawFilter;
 import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.view.View;
@@ -104,6 +105,7 @@ public class BottmTabItem extends View {
         int top = (int) (height - iconHeight - titleTop - titleSize) / 2;
         int right = width / 2 + iconWidth / 2;
         int bottom = (int) (height + iconHeight - titleTop - titleSize) / 2;
+        canvas.save();
         if (selectState) {
             canvas.drawBitmap(selectIcon, null, new Rect(left, top, right, bottom), mPaint);
             mPaint.setColor(titleSelectColor);
@@ -111,6 +113,7 @@ public class BottmTabItem extends View {
             canvas.drawBitmap(icon, null, new Rect(left, top, right, bottom), mPaint);
             mPaint.setColor(titleColor);
         }
+        canvas.restore();
         drawTitle(canvas, top);
     }
 

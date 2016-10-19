@@ -13,11 +13,6 @@
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_gravity">center_vertical</item>
         <item name="android:layout_weight">1</item>
-        <item name="custom:iconHeight">20dp</item>
-        <item name="custom:iconWidth">20dp</item>
-        <item name="custom:titleSelectColor">"#50c1ea</item>
-        <item name="custom:titleSize">12dp</item>
-        <item name="custom:titleTop">2dp</item>
     </style>
 
 </resources>
