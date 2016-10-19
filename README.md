@@ -16,6 +16,13 @@
 ### Gradle
 compile 'com.xyz.tabitem:tabitem:1.0.1'
 
+### 代码
+```
+BottmTabItem tab1 = (BottmTabItem) findViewById(R.id.tab1);
+tab1.setSelectState(true);//true 选中状态 false未选中状态
+
+```
+
 ### Layout
 ``` xml
 <com.xyz.tabitem.BottmTabItem
@@ -32,6 +39,7 @@ compile 'com.xyz.tabitem:tabitem:1.0.1'
             app:titleSize="12dp"
             app:titleTop="5dp" />
 ```
+
 ### LICENSE 开源协议
 
     Apache License Version 2.0
