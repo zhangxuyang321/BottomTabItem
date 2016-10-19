@@ -13,7 +13,7 @@
 
     代码很简单都是一些自定义控件的基本知识。
 ### UI
-    ![1](https://github.com/zhangxuyang321/BottomTabItem/blob/master/ui/1.png)
+   ![1](https://github.com/zhangxuyang321/BottomTabItem/blob/master/ui/1.png)
 
 ### Gradle
     compile 'com.xyz.tabitem:tabitem:1.0.1'
