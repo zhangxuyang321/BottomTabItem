@@ -36,7 +36,7 @@ dependencies {
 
 def siteUrl = 'https://github.com/zhangxuyang321/BottomTabItem'    // Git项目主页
 def gitUrl = 'https://github.com/zhangxuyang321/BottomTabItem.git' // Git仓库url
-group = "com.xyz.tabitem" // 一般为包名
+group = "ccc.pk.paike.bottmtabitem" // 一般为包名
 install {
     repositories.mavenInstaller {
         // 生成POM.xml
@@ -92,7 +92,7 @@ bintray {
     configurations = ['archives']
     pkg {
         repo = "maven" // 发布到Maven库
-        name = "BottomTabItem" // 发布到JCenter上的项目名字
+        name = "tabitem" // 发布到JCenter上的项目名字
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         licenses = ["Apache-2.0"]

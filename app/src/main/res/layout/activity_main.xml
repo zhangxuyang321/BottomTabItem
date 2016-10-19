@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -24,8 +24,8 @@
             custom:iconWidth="30dp"
             custom:selectIcon="@mipmap/tab_home01"
             custom:selectState="true"
-            custom:title="haha"
-            custom:titleSelectColor="#50c1ea"
+            custom:title="首页"
+            custom:titleSelectColor="#FE7105"
             custom:titleSize="12dp"
             custom:titleTop="2dp" />
 
@@ -37,10 +37,10 @@
             custom:iconWidth="30dp"
             custom:selectIcon="@mipmap/tab_koudai01"
             custom:selectState="false"
-            custom:title="haha"
-            custom:titleSelectColor="#50c1ea"
+            custom:title="口袋"
+            custom:titleSelectColor="#FE7105"
             custom:titleSize="12dp"
-            custom:titleTop="2dp" />
+             />
 
         <com.xyz.tabitem.BottmTabItem
             android:id="@+id/tab3"
@@ -50,22 +50,22 @@
             custom:iconWidth="30dp"
             custom:selectIcon="@mipmap/tab_my01"
             custom:selectState="false"
-            custom:title="haha"
-            custom:titleSelectColor="#50c1ea"
+            custom:title="我的"
+            custom:titleSelectColor="#FE7105"
             custom:titleSize="12dp"
-            custom:titleTop="2dp" />
+            />
 
         <com.xyz.tabitem.BottmTabItem
             android:id="@+id/tab4"
             style="@style/bottomitem"
-            custom:icon="@mipmap/youdaihui"
-            custom:iconHeight="20dp"
-            custom:iconWidth="20dp"
-            custom:selectIcon="@mipmap/youdai"
+            custom:icon="@mipmap/ic_launcher"
+            custom:iconHeight="30dp"
+            custom:iconWidth="30dp"
+            custom:selectIcon="@mipmap/ic_launcher"
             custom:selectState="false"
             custom:title="haha"
             custom:titleSelectColor="#50c1ea"
             custom:titleSize="12dp"
-            custom:titleTop="5dp" />
+            />
     </LinearLayout>
 </RelativeLayout>
