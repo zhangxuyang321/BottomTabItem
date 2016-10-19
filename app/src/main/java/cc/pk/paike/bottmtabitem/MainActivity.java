@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        tab1 = (BottmTabItem) findViewById(R.id.tab1);
+        BottmTabItem tab1 = (BottmTabItem) findViewById(R.id.tab1);
         tab2 = (BottmTabItem) findViewById(R.id.tab2);
         tab3 = (BottmTabItem) findViewById(R.id.tab3);
         tab4 = (BottmTabItem) findViewById(R.id.tab4);
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
     private void changeState(int flag) {
-        tab1.setSelectState(0 == flag);
+        tab1.setSelectState(true);//true 选中状态 false未选中状态
         tab2.setSelectState(1 == flag);
         tab3.setSelectState(2 == flag);
         tab4.setSelectState(3 == flag);
