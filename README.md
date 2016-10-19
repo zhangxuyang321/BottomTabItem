@@ -7,10 +7,9 @@
 
     2、design包中的TabLayout（如果要是添加角标或者其他什么view的时候就变得……）
 
-    3、一些其他的开源库如
-   ![Android-ViewPagerIndicator](https://github.com/JakeWharton/ViewPagerIndicator)等等（功能很齐全，但是为了这么       一个小功能引入这些库，有点小题大做）
+   `3、一些其他的开源库如`[Android-ViewPagerIndicator][2] `等等（功能很齐全，但是为了这么一个小功能引入这些库，有点小题大做)
 
-    4、则是在我看微博，微信，QQ等应用是看到的自定义控件（这种方式实现最好，但是我在网上没有搜到类似的开源库，可能是太简单的过，没人弄所以自己实现了一       个）
+    4、则是在我看微博，微信，QQ等应用是看到的自定义控件（这种方式实现最好，但是我在网上没有搜到类似的开源库，可能是太简单的过，没人弄所以自己实现了一       个）`
 
     代码很简单都是一些自定义控件的基本知识。
 ### UI
@@ -66,3 +65,6 @@
 ### LICENSE 开源协议
 
     Apache License Version 2.0
+    
+    
+[2]:https://github.com/JakeWharton/ViewPagerIndicator
