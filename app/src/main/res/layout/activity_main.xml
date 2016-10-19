@@ -20,7 +20,7 @@
             android:id="@+id/tab1"
             style="@style/bottomitem"
             android:paddingBottom="5dp"
-            aspp:icon="@mipmap/tab_home"
+            app:icon="@mipmap/tab_home"
             app:iconHeight="30dp"
             app:iconWidth="30dp"
             app:selectIcon="@mipmap/tab_home01"

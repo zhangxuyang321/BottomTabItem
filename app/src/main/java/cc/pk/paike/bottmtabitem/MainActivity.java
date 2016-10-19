@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
     private void changeState(int flag) {
-        tab1.setSelectState(true);//true 选中状态 false未选中状态
+        tab1.setSelectState(0 == flag);//true 选中状态 false未选中状态
         tab2.setSelectState(1 == flag);
         tab3.setSelectState(2 == flag);
         tab4.setSelectState(3 == flag);
