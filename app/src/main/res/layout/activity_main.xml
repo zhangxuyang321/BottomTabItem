@@ -27,6 +27,7 @@
             custom:title="首页"
             custom:titleSelectColor="#FE7105"
             custom:titleSize="12dp"
+            android:paddingBottom="5dp"
             custom:titleTop="2dp" />
 
         <com.xyz.tabitem.BottmTabItem
@@ -38,6 +39,7 @@
             custom:selectIcon="@mipmap/tab_koudai01"
             custom:selectState="false"
             custom:title="口袋"
+            android:paddingBottom="3dp"
             custom:titleSelectColor="#FE7105"
             custom:titleSize="12dp"
              />
@@ -51,6 +53,7 @@
             custom:selectIcon="@mipmap/tab_my01"
             custom:selectState="false"
             custom:title="我的"
+            android:paddingBottom="2dp"
             custom:titleSelectColor="#FE7105"
             custom:titleSize="12dp"
             />
@@ -61,6 +64,7 @@
             custom:icon="@mipmap/ic_launcher"
             custom:iconHeight="30dp"
             custom:iconWidth="30dp"
+            android:paddingBottom="2dp"
             custom:selectIcon="@mipmap/ic_launcher"
             custom:selectState="false"
             custom:title="haha"

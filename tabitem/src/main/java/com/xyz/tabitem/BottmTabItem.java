@@ -118,7 +118,7 @@ public class BottmTabItem extends View {
     }
 
     private void drawTitle(Canvas canvas, int top) {
-        canvas.drawText(title, width / 2 - mBound.width() * 1.0f / 2, top + iconHeight + titleTop + titleSize, mPaint);
+        canvas.drawText(title, width / 2 - mBound.width() * 1.0f / 2, top + iconHeight + titleTop + titleSize-getPaddingBottom(), mPaint);
     }
 
     private int dp2px(int dp) {
