@@ -1,6 +1,6 @@
 # BottomTabItem
 
-# 介绍
+### 介绍
 平常开发的应用中，有很多都是底部导航栏，目前我知道的大体有四种方法实现
 
 1、LinearLayout中包裹ImageView和TextView（处理起来应该是最麻烦的）
@@ -13,9 +13,24 @@
 
 代码很简单都是一些自定义控件的基本知识。
 
-#Gradle
+### Gradle
 compile 'com.xyz.tabitem:tabitem:1.0.1'
 
-# LICENSE 开源协议
+### Layout
+<com.xyz.tabitem.BottmTabItem
+            android:id="@+id/tab1"
+            style="@style/bottomitem"
+            android:paddingBottom="5dp"
+            app:icon="@mipmap/tab_home"
+            app:iconHeight="30dp"
+            app:iconWidth="30dp"
+            app:selectIcon="@mipmap/tab_home01"
+            app:selectState="true"
+            app:title="首页"
+            app:titleSelectColor="#FE7105"
+            app:titleSize="12dp"
+            app:titleTop="5dp" />
+
+### LICENSE 开源协议
 
     Apache License Version 2.0
