@@ -38,7 +38,7 @@ ext {
     libraryName = 'TabItem'
     artifact = 'tabitem'
     libraryDescription = ''
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
 
     siteUrl = 'https://github.com/zhangxuyang321/BottomTabItem'
     gitUrl = 'https://github.com/zhangxuyang321/BottomTabItem.git'
