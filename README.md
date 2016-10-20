@@ -1,7 +1,7 @@
 # BottomTabItem
 
 ### 介绍
-    平常开发的应用中，有很多都是底部导航栏，目前我知道的大体有四种方法实现
+    平常开发的应用中，有很多都是底部导航栏(tabitem)，目前我知道的大体有四种方法实现
 
     1、LinearLayout中包裹ImageView和TextView（处理起来应该是最麻烦的）
 
