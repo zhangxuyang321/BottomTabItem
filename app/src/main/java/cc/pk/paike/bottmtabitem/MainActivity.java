@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        BottmTabItem tab1 = (BottmTabItem) findViewById(R.id.tab1);
+        tab1 = (BottmTabItem) findViewById(R.id.tab1);
         tab2 = (BottmTabItem) findViewById(R.id.tab2);
         tab3 = (BottmTabItem) findViewById(R.id.tab3);
         tab4 = (BottmTabItem) findViewById(R.id.tab4);
