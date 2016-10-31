@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="BottmTabItem">
-        <attr name="selectState" format="boolean" />
-        <attr name="icon" format="reference" />
-        <attr name="selectIcon" format="reference" />
-        <attr name="iconWidth" format="dimension" />
-        <attr name="iconHeight" format="dimension" />
-        <attr name="title" format="string" />
-        <attr name="titleColor" format="color" />
-        <attr name="titleSelectColor" format="color" />
-        <attr name="titleSize" format="dimension" />
-        <attr name="titleTop" format="dimension" />
+        <attr name="xyzSelectState" format="boolean" />
+        <attr name="xyzIcon" format="reference" />
+        <attr name="xyzSelectIcon" format="reference" />
+        <attr name="xyzIconWidth" format="dimension" />
+        <attr name="xyzIconHeight" format="dimension" />
+        <attr name="xyzTitle" format="string" />
+        <attr name="xyzTitleColor" format="color" />
+        <attr name="xyzTitleSelectColor" format="color" />
+        <attr name="xyzTitleSize" format="dimension" />
+        <attr name="xyzTitleTop" format="dimension" />
     </declare-styleable>
 </resources>

@@ -50,16 +50,16 @@ public class BottmTabItem extends View {
 
     private void init(Context context, AttributeSet attrs) {
         TypedArray ta = context.obtainStyledAttributes(attrs, R.styleable.BottmTabItem);
-        selectState = ta.getBoolean(R.styleable.BottmTabItem_selectState, false);
-        icon = BitmapFactory.decodeResource(getResources(), ta.getResourceId(R.styleable.BottmTabItem_icon, 0));
-        selectIcon = BitmapFactory.decodeResource(getResources(), ta.getResourceId(R.styleable.BottmTabItem_selectIcon, 0));
-        iconWidth = (int) ta.getDimension(R.styleable.BottmTabItem_iconWidth, 0);
-        iconHeight = (int) ta.getDimension(R.styleable.BottmTabItem_iconHeight, 0);
-        title = ta.getString(R.styleable.BottmTabItem_title);
-        titleTop = (int) ta.getDimension(R.styleable.BottmTabItem_titleTop, 0);
-        titleColor = ta.getColor(R.styleable.BottmTabItem_titleColor, Color.GRAY);
-        titleSelectColor = ta.getColor(R.styleable.BottmTabItem_titleSelectColor, Color.BLACK);
-        titleSize = ta.getDimension(R.styleable.BottmTabItem_titleSize, dp2px(15));
+        selectState = ta.getBoolean(R.styleable.BottmTabItem_xyzSelectState, false);
+        icon = BitmapFactory.decodeResource(getResources(), ta.getResourceId(R.styleable.BottmTabItem_xyzIcon, 0));
+        selectIcon = BitmapFactory.decodeResource(getResources(), ta.getResourceId(R.styleable.BottmTabItem_xyzSelectIcon, 0));
+        iconWidth = (int) ta.getDimension(R.styleable.BottmTabItem_xyzIconWidth, 0);
+        iconHeight = (int) ta.getDimension(R.styleable.BottmTabItem_xyzIconHeight, 0);
+        title = ta.getString(R.styleable.BottmTabItem_xyzTitle);
+        titleTop = (int) ta.getDimension(R.styleable.BottmTabItem_xyzTitleTop, 0);
+        titleColor = ta.getColor(R.styleable.BottmTabItem_xyzTitleColor, Color.GRAY);
+        titleSelectColor = ta.getColor(R.styleable.BottmTabItem_xyzTitleSelectColor, Color.BLACK);
+        titleSize = ta.getDimension(R.styleable.BottmTabItem_xyzTitleSize, dp2px(15));
         ta.recycle();
         mPaint = new Paint();
         mPaint.setAntiAlias(true);
