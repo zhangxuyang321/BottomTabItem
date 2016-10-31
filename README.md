@@ -15,7 +15,7 @@
    ![1](https://github.com/zhangxuyang321/BottomTabItem/blob/master/ui/1.png)
 
 ### Gradle
-    compile 'com.xyz.tabitem:tabitem:1.0.1'
+    compile 'com.xyz.tabitem:tabitem:1.0.2'
 
 ### 代码
 ```
@@ -30,30 +30,30 @@
             android:id="@+id/tab1"
             style="@style/bottomitem"
             android:paddingBottom="5dp"
-            app:icon="@mipmap/tab_home"
-            app:iconHeight="30dp"
-            app:iconWidth="30dp"
-            app:selectIcon="@mipmap/tab_home01"
-            app:selectState="true"
-            app:title="首页"
-            app:titleSelectColor="#FE7105"
-            app:titleSize="12dp"
-            app:titleTop="5dp" />
+            app:xyzIcon="@mipmap/tab_my"
+            app:xyzIconHeight="30dp"
+            app:xyzIconWidth="30dp"
+            app:xyzSelectIcon="@mipmap/tab_my01"
+            app:xyzSelectState="false"
+            app:xyzTitle="我的"
+            app:xyzTitleSelectColor="#FE7105"
+            app:xyzTitleSize="12dp"
+            app:xyzTitleTop="5dp" />
 ```
 
 ### 属性介绍
     属性 | 介绍 | 类型 | 默认 | 是否必须
     --- | --- | --- | --- | ---
-    selectState | 是否为选中状态 | boolean | false | 否
-    icon | 默认图片 | reference | null | 是
-    selectIcon | 选中图片 | reference | null | 是
-    iconWidth | 图片宽度 | dimension | 0 | 否 
-    iconHeight | 图片高度 | dimension | 0 | 否
-    title | 图片标题 | string | null | 是
-    titleColor | 默认颜色 | color | Color.GRAY | 否
-    titleSelectColor | 选中时颜色 | color | Color.BLACK | 否
-    titleSize | 文字大小 | dimension | 15 | 否
-    titleTop | 图片与文字间距 | dimension | 0 | 否
+    xyzSelectState | 是否为选中状态 | boolean | false | 否
+    xyzIcon | 默认图片 | reference | null | 是
+    xyzSelectIcon | 选中图片 | reference | null | 是
+    xyzIconWidth | 图片宽度 | dimension | 0 | 否 
+    xyzIconHeight | 图片高度 | dimension | 0 | 否
+    xyzTitle | 图片标题 | string | null | 是
+    xyzTitleColor | 默认颜色 | color | Color.GRAY | 否
+    xyzTitleSelectColor | 选中时颜色 | color | Color.BLACK | 否
+    xyzTitleSize | 文字大小 | dimension | 15 | 否
+    xyzTitleTop | 图片与文字间距 | dimension | 0 | 否
     
 ### 注意
     凡是为必须的属性必须有值否则会报错
